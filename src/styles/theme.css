@@ -1,0 +1,31 @@
+/* Perfect Senegal palette (WCAG-AA compliant) */
+:root {
+  /* 1.  Senegal flag – optimized for contrast */
+  --sen-green:  #008751;  /* Enhanced green for better contrast */
+  --sen-yellow: #ffcc00;  /* Brighter yellow for visibility */
+  --sen-red:    #d21034;  /* Standard Senegal red */
+
+  /* 2.  Greys – cooler, ministry-style with better contrast */
+  --neutral-0:  #ffffff;
+  --neutral-50: #f8fafc;
+  --neutral-100:#f1f5f9;
+  --neutral-200:#e2e8f0;
+  --neutral-300:#cbd5e1;
+  --neutral-700:#334155;
+  --neutral-800:#1e293b;
+  --neutral-900:#0f172a;
+
+  /* 3.  Functional colors with high contrast */
+  --primary:   var(--sen-green);
+  --primary-dark: #006b3f;
+  --secondary: var(--sen-yellow);
+  --secondary-dark: #cc9900;
+  --danger:    var(--sen-red);
+  --danger-dark:  #b00d2a;
+
+  /* 4.  Enhanced shadows – softer, premium */
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 10px 10px -5px rgb(0 0 0 / 0.04);
+}
