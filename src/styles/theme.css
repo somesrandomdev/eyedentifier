@@ -23,7 +23,20 @@
   --danger:    var(--sen-red);
   --danger-dark:  #b00d2a;
 
-  /* 4.  Enhanced shadows – softer, premium */
+  /* 4.  Text colors */
+  --text-primary: var(--neutral-900);
+  --text-secondary: var(--neutral-700);
+  --text-tertiary: var(--neutral-300);
+
+  /* 5.  Accent (same as primary for now) */
+  --accent: var(--primary);
+  --accent-dark: var(--primary-dark);
+  --accent-light: #e6f7f0; /* Light green */
+
+  /* 6.  Border */
+  --border: var(--neutral-200);
+
+  /* 7.  Enhanced shadows – softer, premium */
   --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
   --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);

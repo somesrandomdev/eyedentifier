@@ -22,6 +22,15 @@ export default {
           800:'var(--neutral-800)',
           900:'var(--neutral-900)',
         },
+        accent: 'var(--accent)',
+        'accent-dark': 'var(--accent-dark)',
+        'accent-light': 'var(--accent-light)',
+        text: {
+          primary: 'var(--text-primary)',
+          secondary: 'var(--text-secondary)',
+          tertiary: 'var(--text-tertiary)',
+        },
+        border: 'var(--border)',
       },
       boxShadow: {
         sm: 'var(--shadow-sm)',

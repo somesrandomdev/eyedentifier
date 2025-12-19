@@ -14,6 +14,7 @@ import CitizensList from './pages/CitizensList';
 import CitizenDetail from './pages/CitizenDetail';
 import History from './pages/History';
 import Settings from './pages/Settings';
+import Home from './pages/Home';
 
 function App() {
   const { isAuthenticated, initialize } = useAuthStore();
@@ -25,6 +26,7 @@ function App() {
   return (
     <Routes>
       {/* Public routes */}
+      <Route path="/" element={<Home />} />
       <Route path="/login" element={<Login />} />
 
       {/* Protected routes */}
@@ -32,8 +34,6 @@ function App() {
         <Protected>
           <Layout>
             <Routes>
-              <Route path="/" element={<Navigate to="/tableau-de-bord" replace />} />
-              <Route path="/login" element={<Navigate to="/tableau-de-bord" replace />} />
               <Route path="/tableau-de-bord" element={<Dashboard />} />
 
               {/* Enrôlement Wizard */}
